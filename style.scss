@@ -1,12 +1,16 @@
 *{
     font-family: sans-serif;
 }
+.mw{
+    max-width: 1300px;
+}
 .start{
     display: flex;
     justify-content: space-evenly;
     background-color: whitesmoke;
     border-radius: 50px;
     align-items: center;
+
     nav{
         display: flex;
     gap: 20px;
@@ -29,12 +33,31 @@ border-radius: 50px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: whitesmoke;
     .but{
 padding: 15px 40px;
 border-radius: 20px;
 background-color: orangered;
 color: white;
 border:none;
+    }
+}
+.cent{
+    text-align: center;
+    margin-top: 50px;
+}
+.section2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    div{
+        button{
+padding: 10px 25px;
+border: none;
+border-radius: 30px;
+color:white;        
+}
     }
 }
