@@ -1,0 +1,40 @@
+*{
+    font-family: sans-serif;
+}
+.start{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+    border-radius: 50px;
+    align-items: center;
+    nav{
+        display: flex;
+    gap: 20px;
+color: gray;    
+}
+    div{
+        display: flex;
+    gap:20px;
+    }
+    .but{
+padding: 15px 40px;
+background: #38BFF2;
+color: white;
+border:none;
+border-radius: 50px;
+
+    }
+}
+.section1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    .but{
+padding: 15px 40px;
+border-radius: 20px;
+background-color: orangered;
+color: white;
+border:none;
+    }
+}
