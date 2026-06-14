@@ -3,6 +3,7 @@
 }
 .mw{
     max-width: 1300px;
+    margin: auto;
 }
 .start{
     display: flex;
@@ -59,5 +60,19 @@ border: none;
 border-radius: 30px;
 color:white;        
 }
+    }
+}
+.section3{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    nav{
+        text-align: center;
+        padding: 50px;
+        background-color: whitesmoke;
+        border-radius: 50px;
+        width:15%;
+        margin-top:30px ;
     }
 }
