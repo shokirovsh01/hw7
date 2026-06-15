@@ -177,4 +177,9 @@
   border-radius: 50px;
   padding: 20px;
   margin-top: 30px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
 }/*# sourceMappingURL=style.css.map */
